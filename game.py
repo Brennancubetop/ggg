@@ -19,7 +19,7 @@ def guess_the_number():
                 print(f"Поздравляю! Вы угадали число {number} за {attempts} попыток.")
                 break
         except ValueError:
-            print("Ошибка! Введите целое число.")
+            print("Ошибка! целое число.")
 
 if __name__ == "__main__":
     guess_the_number()
