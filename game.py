@@ -16,10 +16,10 @@ def guess_the_number():
             elif guess > number:
                 print("Загаданное число меньше.")
             else:
-                print(f"Поздравляю! Вы угадали число {number} за {attempts} попыток.")
+                print(f"Поздравляю! Вы угадали число {number} за {attempts} попыток")
                 break
         except ValueError:
-            print("Ошибка! целое число.")
+            print("Ошибка! елое число.")
 
 if __name__ == "__main__":
     guess_the_number()
