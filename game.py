@@ -4,7 +4,7 @@ def guess_the_number():
     number = random.randint(1, 100)
     attempts = 0
 
-    print("Я загадал число от 1 до 200. Попробуйте угадать!")
+    print("Я число от 1 до 200. Попробуйте угадать!")
 
     while True:
         try:
