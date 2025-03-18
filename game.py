@@ -14,7 +14,7 @@ def guess_the_number():
             if guess < number:
                 print("Загаданное число больше.")
             elif guess > number:
-                print("Загаданное число меньше.")
+                print("Загаданное меньше.")
             else:
                 print(f"Поздравляю! Вы угадали число {number} за {attempts} попыток")
                 break
