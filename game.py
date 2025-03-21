@@ -9,7 +9,7 @@ def guess_the_number():
     while True:
         try:
             guess = int(input("Введите ваше: "))
-            attempts += 1
+            attempts += 2
 
             if guess < number:
                 print("Загаданное число больше.")
